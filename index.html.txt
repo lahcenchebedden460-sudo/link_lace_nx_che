@@ -1,0 +1,69 @@
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Portfolio | Lahcene</title>
+    <!-- Google Fonts for Tech look -->
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="background-overlay"></div>
+
+    <main class="container">
+        <header class="hero">
+            <div class="glitch-wrapper">
+                <h1 class="profile-title" data-text="SYSTEM_ACCESS: LAHCENE">SYSTEM_ACCESS: LAHCENE</h1>
+            </div>
+            <p class="subtitle">WEB_DEVELOPER // CYBER_SECURITY_EXPERT</p>
+        </header>
+        
+        <section class="bio-card">
+            <div class="bio-content ar">
+                <p>مطور مواقع ويب محترف أمتلك خبرة في تطوير وتصميم المواقع الحديثة باستخدام أحدث التقنيات، مع معرفة قوية في مجال الأمن السيبراني وحماية الأنظمة والتطبيقات. أتميز بالقدرة على إنشاء مواقع سريعة، آمنة، ومتجاوبة مع جميع الأجهزة، بالإضافة إلى فهم أساسيات اختبار الثغرات وتأمين التطبيقات والشبكات.</p>
+            </div>
+            <div class="separator"></div>
+            <div class="bio-content en">
+                <p>Professional Web Developer with experience in building modern, responsive, and secure websites using the latest technologies. Skilled in cybersecurity concepts, web application security, and system protection. Passionate about creating fast, user-friendly, and secure digital experiences while maintaining high performance and reliability.</p>
+            </div>
+        </section>
+
+        <section class="action-zone">
+            <div class="gallery-trigger" id="openBtn">
+                <div class="scanner-line"></div>
+                <i class="fas fa-user-shield fa-3x"></i>
+                <span>ACCESS_PORTFOLIO_GALLERY</span>
+            </div>
+        </section>
+
+        <footer class="social-links">
+            <a href="https://www.instagram.com/lacene_che?igsh=NjB6ZW4xd241Ympq" target="_blank" title="Instagram 1"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.instagram.com/lace_nx__ch?igsh=eWdvZ3h2YWdkZzlt" target="_blank" title="Instagram 2"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/ahcen.305505" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.tiktok.com/@lace_nx___ch?_r=1&_t=ZS-96NI8Sc9LD3" target="_blank" title="TikTok"><i class="fab fa-tiktok"></i></a>
+            <a href="mailto:lahcenchebedden460@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+        </footer>
+    </main>
+
+    <!-- Modal Gallery -->
+    <div id="galleryModal" class="modal">
+        <div class="modal-overlay"></div>
+        <button class="close-btn" id="closeBtn">&times;</button>
+        
+        <div class="modal-container">
+            <button class="nav-btn prev-btn" id="prevBtn"><i class="fas fa-chevron-right"></i></button>
+            <div class="image-wrapper">
+                <img id="currentImg" src="" alt="Portfolio Item">
+            </div>
+            <button class="nav-btn next-btn" id="nextBtn"><i class="fas fa-chevron-left"></i></button>
+        </div>
+        
+        <div class="image-counter" id="imgCounter">0 / 0</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
